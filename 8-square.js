@@ -4,10 +4,8 @@ if(isNaN(size)) {
     console.log("Missing size");
 }
  else {
-    let ans = "";
-    for(let i = 0; i < size; i++) {
-        ans+='X';
-    }
+    const ans = 'X'.repeat(size);
+    
 for (let i = 0; i < size; i++) {
     console.log(ans);
   }
